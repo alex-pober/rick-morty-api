@@ -1,0 +1,23 @@
+.paginationSelector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.paginationSelector button {
+  border-style: none;
+  border: none;
+  color: #ffffff;
+  background-color: #ffffff00;
+  padding: 8px;
+  cursor: pointer;
+  width: 33px;
+}
+
+
+.paginationSelector button:disabled {
+  color: #cccccc7f;
+  border-style: none !important;
+  cursor: not-allowed;
+}
